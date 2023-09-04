@@ -1,28 +1,30 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: gray;
-    
+* {
+    margin: 15px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+.cabecera {
+
+    display: block;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin-bottom: 50px;
 }
 
 h1 {
-    font-size: 2em;
+    color: rgb(7, 18, 92);
     font-weight: bold;
     text-align: center;
 }
 
-h2 {
-    font-size: 1.5em;
+.cuerpo {
+
     font-weight: bold;
     text-align: center;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-li {
-    margin-bottom: 0.5em;
-    text-align: center;
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
