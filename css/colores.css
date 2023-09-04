@@ -17,14 +17,13 @@ h1 {
     text-align: center;
 }
 .foto {
-    text-align: center;
-    width: 40%;
-    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .foto img{
-    text-align: center;
-    display: block;
-    width: 40px;
+    width:14%;
+    
 }
 
 .cuerpo {
@@ -41,7 +40,7 @@ h1 {
 }
 
 .footer img {
-    text-align: center;
+    align-items: center;
     display: block;
     width: 100%;
     height: 120px;
