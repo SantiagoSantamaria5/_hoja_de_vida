@@ -38,6 +38,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     grid-template-columns: 50% 50%;
+    font-size: 2vh;
 }
 .part2 {
     display: flex;
